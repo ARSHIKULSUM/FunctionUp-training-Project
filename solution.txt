@@ -1,0 +1,4 @@
+Q. What is the difference between git restore filename and git restore --staged filename?
+Ans:- git restore and git restore stagged[D[D[D[D[D[D[D--stagged both undo the change but,
+git restore:- undo the changes made to the mentioned file name in the working directory and reverting the state to the previous commit.
+git restore --stagged:- undo the changes made in the mentioned file in the stagging area, and does not affect the change made in working diretory
